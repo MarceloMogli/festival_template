@@ -1,12 +1,14 @@
 import { Header, About } from './containers';
-import Navbar from './components/Navbar/Navbar';
+import {Navbar, Footer}  from './components';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <About/>
+      <About />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.about-title{
+  text-align: center;
+  font-size: 42px;
+  font-style: italic;
+  margin-bottom: 3vh;
+  font-weight: 600;
+}
+
+.about-text{
+  text-align:justify;
+  font-size: 20px;
+  margin: 0 5vw;
+  line-height: 2;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.gallery-container {
+  width: 49vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
