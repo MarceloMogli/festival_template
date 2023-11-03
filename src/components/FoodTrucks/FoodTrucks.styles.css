@@ -3,9 +3,17 @@
 }
 
 .foodtrucks-title {
-  text-align: center;
   color: #fd8f41;
   font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.foodtrucks-title img {
+  width: 48px;
+  height: 48px;
 }
 
 .foodtrucks-intro {
@@ -22,3 +30,11 @@
   align-items: center;
   height: 75vh;
 }
+
+.workshop-container {
+  width: 100vw;
+  height: 90vh;
+  margin: 2vh 0;
+}
+
+
