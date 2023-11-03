@@ -1,0 +1,31 @@
+.chefs-title {
+    color: #fd8f41;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+  }
+  
+  .chefs-title img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .chefs-intro {
+    margin: 3vh 10vw 0;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .chefs-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    perspective: 1000px;
+    margin: 2vh 0;
+  }
+
+  

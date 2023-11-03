@@ -1,8 +1,11 @@
 import React from 'react'
+import SurfingHeader from '../components/SurfingHeader/SurfingHeader'
 
 const Surfing = () => {
   return (
-    <div>Surfing</div>
+    <>
+    <SurfingHeader />
+    </>
   )
 }
 
