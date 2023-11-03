@@ -3,6 +3,7 @@ import React from 'react'
 import './FoodTrucks.styles.css'
 import FoodTruckAccordion from '../FoodtrucksAccordion/FoodTruckAccordion'
 import TitleIcon from '../../assets/food-icon1.png'
+import GalleryIcon from '../../assets/cooking.png'
 import WorkShopGallery from '../WorkShopGallery/WorkShopGallery'
 
 const FoodTrucks = () => {
@@ -25,7 +26,7 @@ const FoodTrucks = () => {
       </div>
       <div className="foodtrucks-title">
         <h1>Capturing Creative Workshops: A Visual Journey Through Inspiration and Innovation</h1>
-        <img src={TitleIcon} alt="" />
+        <img src={GalleryIcon} alt="" />
       </div>
       <div className="workshop-container">
         <WorkShopGallery/>
