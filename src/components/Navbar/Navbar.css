@@ -1,14 +1,16 @@
-header {
+nav{
+  width: 100vw;
+  height: 5vh;
   background-color: #ffa96a;
-  color: #000;
-  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
   text-align: center;
-  background-color: #ffa96a;
+  
 }
 
 nav ul li {
@@ -20,7 +22,6 @@ nav ul li a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  background-color: #ffa96a;
 }
 
 nav ul li a:hover {

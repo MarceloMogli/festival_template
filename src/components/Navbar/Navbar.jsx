@@ -1,22 +1,23 @@
 import React from 'react'
+import { Outlet, Link } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#artists">Artists</a></li>
-                <li><a href="#food">Food</a></li>
-                <li><a href="#surfing">Surfing</a></li>
-                <li><a href="#tickets">Tickets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/schedule">Schedule</Link></li>
+          <li><Link to="/artists">Artists</Link></li>
+          <li><Link to="/food">Food</Link></li>
+          <li><Link to="/surfing">Surfing</Link></li>
+          <li><Link to="/tickets">Tickets</Link></li>
+        </ul>
+      </nav>
+      <Outlet />
+    </>
+
   )
 }
 

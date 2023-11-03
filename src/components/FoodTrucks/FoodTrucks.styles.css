@@ -1,0 +1,24 @@
+.foodtrucks {
+  margin-top: 2vh;
+}
+
+.foodtrucks-title {
+  text-align: center;
+  color: #fd8f41;
+  font-style: italic;
+}
+
+.foodtrucks-intro {
+  margin: 3vh 10vw 0;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.foodtruck-accordion-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}

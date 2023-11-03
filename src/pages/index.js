@@ -1,0 +1,7 @@
+export { default as Home } from './Home'
+export { default as Schedule } from './Schedule'
+export { default as Artists } from './Artists'
+export { default as Food } from './Food'
+export { default as Surfing } from './Surfing'
+export { default as Tickets } from './Tickets'
+export { default as NoPage } from './NoPage'
