@@ -15,7 +15,7 @@ const SurfingHeader = () => {
                 <p>Experience the freedom of the ocean, connect with surfers from around the world, and ride the waves to the rhythm of live music and good vibes.</p>
                 <p>Our expression sessions, where creativity takes center stage, are not contests but celebrations of individual style and artistry on the water. It's a chance to break free from the routine and express your passion for surfing in a welcoming and supportive environment.</p>
                 <p>Explore the beauty of surfboard art, watch stunning surf sessions, and be part of the global surf community at our festival. Get ready for an unforgettable experience filled with the stoke of surfing and the camaraderie of like-minded wave riders.</p>
-                <a href="/schedule">View Surfing Schedule</a>
+                {/*<a href="/schedule">View Surfing Schedule</a>*/}
             </div>
         </div>
     )

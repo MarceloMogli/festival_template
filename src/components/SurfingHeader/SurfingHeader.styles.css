@@ -1,6 +1,7 @@
 .surfing-header-container{
     width: 100vw;
-    height: 95vh;
+    height: auto;
+    margin-bottom: 5vh;
 }
 
 .surfing-img{
@@ -15,7 +16,7 @@
 }
 
 .surfing-intro {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
   
@@ -38,7 +39,7 @@
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 1vh;
     font-weight: bold;
     transition: background-color 0.3s;
   }
