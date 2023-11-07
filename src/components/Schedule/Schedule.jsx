@@ -1,16 +1,16 @@
 import React from 'react'
-
-import './Schedule.styles.css'
 import ScheduleCard from '../ScheduleCard/ScheduleCard'
 import ScheduleHeader from '../ScheduleHeader/ScheduleHeader'
+import { scheduleInfo } from '../../constants'
+
+import './Schedule.styles.css'
 
 const Schedule = () => {
     return (
         <>
             <ScheduleHeader />
             <div className="schedule-container">
-                <ScheduleCard />
-                <ScheduleCard />
+                {scheduleInfo.map((data, index) => (<ScheduleCard key={index} {...data} />))}
             </div>
         </>
     )

@@ -1,17 +1,17 @@
 import React from 'react'
-import Img1 from '../../assets/6 (2).jpg'
+
 import './ArtistCard.styles.css'
 
-const ArtistCard = () => {
+const ArtistCard = ({image, name, genre, origin}) => {
   return (
     <div className="artist-card">
                 <div className="artist-image">
-                    <img src={Img1} alt="Artist 1" />
+                    <img src={image} alt="Artist 1" />
                 </div>
                 <div className="artist-details">
-                    <p className="artist-name">Artist 1</p>
-                    <p className="artist-genre">Pop</p>
-                    <p className="artist-origin">From: UK</p>
+                    <p className="artist-name">{name}</p>
+                    <p className="artist-genre">{genre}</p>
+                    <p className="artist-origin">From: {origin}</p>
                 </div>
             </div>
   )

@@ -1,0 +1,32 @@
+/* TicketInfo.styles.css */
+
+.tickets-info-container {
+    padding: 20px;
+    margin: 2vh 10vw;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .tickets-info-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    color: #fd8f41;
+  }
+  
+  .tickets-info-text {
+    margin-bottom: 2vh;
+    color: #4c4c4c;
+  }
+  
+  .tickets-info-schedule {
+    font-weight: bold;
+    margin-bottom: 1vh;
+    color: #fd8f41;
+  }
+  
+  .tickets-info-schedule-item {
+    margin-bottom: 2vh;
+    color: #4c4c4c;
+  }
+  

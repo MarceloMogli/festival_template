@@ -1,0 +1,28 @@
+.sellers-title {
+  color: #fd8f41;
+  margin-left: 10vw;
+  margin-bottom: 2vh;
+  font-style: italic;
+}
+
+
+.tickets-sellers-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 10vw;
+  height: 35vh;
+}
+
+.seller-row-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.local-sellers {
+  margin: 1vh 0;
+  font-size: 1.1rem;
+  color: #4c4c4c;
+}
+

@@ -1,18 +1,18 @@
 import React from 'react'
-import Img1 from '../../assets/1 (2).jpg'
+
 import './ScheduleCard.styles.css'
 
-const ScheduleCard = () => {
+const ScheduleCard = ({image, name, date, time, type}) => {
   return (
     <div className="event-card">
       <div className="event-image">
-        <img src={Img1} alt="Event 1" />
+        <img src={image} alt="Event 1" />
       </div>
       <div className="event-details">
-        <p className="event-name">Event 1</p>
-        <p className="event-date">November 10, 2023</p>
-        <p className="event-time">10:00 AM - 16:00 PM</p>
-        <p className="event-type">Concert</p>
+        <p className="event-name">{name}</p>
+        <p className="event-date">{date}</p>
+        <p className="event-time">{time}</p>
+        <p className="event-type">{type}</p>
       </div>
     </div>
   )

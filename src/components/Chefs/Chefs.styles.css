@@ -15,9 +15,10 @@
   .chefs-intro {
     margin: 3vh 10vw 0;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.3rem;
     line-height: 1.5;
     text-align: center;
+    color: #4c4c4c;
   }
 
   .chefs-card-container {

@@ -1,0 +1,17 @@
+.price-sheet-container {
+    width: 80vw;
+    height: auto;
+    margin:  2vh auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.5vw;
+    flex-wrap: wrap
+}
+
+.price-title{
+    color: #fd8f41;
+    margin-left: 10vw;
+    margin-bottom: 2vh;
+    font-style: italic;
+}
+

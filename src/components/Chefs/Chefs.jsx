@@ -3,6 +3,7 @@ import ChefIcon from '../../assets/cheficon.png'
 
 import './Chefs.styles.css'
 import ChefsCard from '../ChefsCard/ChefsCard'
+import { chefsInfo } from '../../constants'
 
 const Chefs = () => {
     return (
@@ -28,9 +29,7 @@ const Chefs = () => {
                 </p>
             </div>
             <div className="chefs-card-container">
-                <ChefsCard />
-                <ChefsCard />
-                <ChefsCard />
+                {chefsInfo.map((chef, index) => (<ChefsCard  key={index} {...chef}/>))}
             </div>
         </div>
     )

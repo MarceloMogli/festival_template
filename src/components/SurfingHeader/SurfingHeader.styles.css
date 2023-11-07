@@ -18,6 +18,7 @@
 .surfing-intro {
     padding: 10px;
     text-align: center;
+    color: #4c4c4c;
   }
   
   .surfing-intro h1 {
@@ -28,7 +29,7 @@
   }
   
   .surfing-intro p {
-    font-size: 18px;
+    font-size: 1.3rem;
     margin: 2vh 10vw;
   }
   

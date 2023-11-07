@@ -1,0 +1,25 @@
+.seller-container {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .seller-button {
+    width: 8vw;
+    display: inline-block;
+    background-color: #fd8f41;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+    font-size: 1rem;
+  }
+  
+  .seller-button:hover {
+    background-color: #f0f0f0;
+    color: #fd8f41;
+  }
+  

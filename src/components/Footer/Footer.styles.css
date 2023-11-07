@@ -40,11 +40,16 @@ footer {
   }
   
   .footer-links a:hover {
-    color: #007bff;
+    color: #000;
   }
   
   .footer-contact h3 {
     font-size: 1.2rem;
+  }
+  
+  .footer-contact p {
+    font-size: 1.0rem;
+    color: #fff;
   }
   
   .footer-bottom {

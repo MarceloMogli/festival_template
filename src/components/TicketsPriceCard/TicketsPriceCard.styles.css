@@ -1,0 +1,32 @@
+.ticket-price-container{
+    width: 39vw;
+    background-color: #f0f0f0;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.ticket-name{
+    font-size: 1.2rem;
+    color: #fd8f41;
+}
+.ticket-description{
+    margin: 1vh 0;
+    font-size: 1.1rem;
+    color: #4c4c4c;
+}
+
+.price-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5vh 0;
+}
+
+.date-limit{
+    color: #717171;
+}
+
+.ticket-price {
+    font-weight: 900;
+    color: #fd8f41;
+}
