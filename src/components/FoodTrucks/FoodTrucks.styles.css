@@ -17,7 +17,7 @@
 }
 
 .foodtrucks-intro {
-  margin: 3vh 10vw 0;
+  margin: 3vh 10vw;
   padding: 10px;
   font-size: 1.3rem;
   line-height: 1.5;
@@ -32,10 +32,17 @@
   height: 75vh;
 }
 
-.workshop-container {
-  width: 100vw;
-  height: 90vh;
-  margin: 2vh 0;
+
+@media screen and (max-width: 1000px) {
+  .foodtrucks-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .foodtrucks-intro {
+    margin: 2vh 10vw;
+    padding: 5px;
+    font-size: 1rem;
+  }
 }
 
 

@@ -1,5 +1,5 @@
 :root {
-    --i: 0; /* Define the variable with a value */
+    --i: 0;
   }
   
   .box {
@@ -40,5 +40,12 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  @media (max-width: 600px) {
+    .box span img{
+      width: 55%;
+      height: 50%;
+    }
   }
   

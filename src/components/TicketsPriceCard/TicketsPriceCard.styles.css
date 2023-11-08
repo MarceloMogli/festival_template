@@ -30,3 +30,30 @@
     font-weight: 900;
     color: #fd8f41;
 }
+
+@media screen and (max-width: 850px) {
+    .ticket-price-container{
+        width: 75vw;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    
+    .ticket-name{
+        font-size: 1rem;
+        color: #fd8f41;
+    }
+    .ticket-description{
+        margin: 0;
+        font-size: 0.9rem;
+        color: #4c4c4c;
+    }
+    
+    .price-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5vh 0;
+    }
+    
+  }

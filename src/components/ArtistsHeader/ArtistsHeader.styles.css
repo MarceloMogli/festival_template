@@ -39,3 +39,28 @@
 .artists-header-intro li {
   margin: 5px 0;
 }
+
+@media (max-width: 600px) {
+  .artists-header-intro h1 {
+    font-size: 1.5rem;
+  }
+  
+  .artists-header-intro p {
+    font-size: 1.1rem;
+  }
+  
+  .artists-header-intro ul {
+    font-size: 1.0rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .artists-header-container{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .artists-header-intro{
+    width: 100%;
+  }
+}

@@ -1,10 +1,10 @@
 .about-title{
   text-align: center;
-  font-size: 42px;
+  font-size: 3rem;
   font-style: italic;
-  margin-bottom: 3vh;
+  margin: 3vh 0;
   font-weight: 600;
-  color: #ff9b53;
+  color: #fd8f41;;
 }
 
 .about-text{
@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
   min-height: 80vh;
+  margin: 2vh;
 }
 
 .gallery-container {
@@ -27,4 +28,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .about-title{
+    font-size: 1.8rem;
+  }
+
+  .about-text{
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-title{
+    font-size: 2rem;
+  }
+
+  .about-text{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-title{
+    font-size: 1.5rem;
+  }
+
+  .about-text{
+    font-size: 0.8rem;
+  }
 }

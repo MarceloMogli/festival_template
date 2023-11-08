@@ -11,7 +11,7 @@ const ArtistCard = ({image, name, genre, origin}) => {
                 <div className="artist-details">
                     <p className="artist-name">{name}</p>
                     <p className="artist-genre">{genre}</p>
-                    <p className="artist-origin">From: {origin}</p>
+                    <p className="artist-origin">{origin}</p>
                 </div>
             </div>
   )

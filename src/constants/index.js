@@ -247,3 +247,33 @@ export const ticketTypes = [
     ],
   },
 ];
+
+export const localSellers = [
+  {
+      name: 'MEO BlueTicket',
+      website: 'https://blueticket.meo.pt/',
+  },
+  {
+      name: 'Fnac',
+      website: 'https://www.fnac.com',
+  },
+  {
+      name: 'Worten',
+      website: 'https://www.worten.com',
+  },
+  {
+      name: 'Fnac',
+      website: 'https://www.fnac.com',
+  },
+];
+
+export const foreignSellers = [
+  {
+      name: 'SeeTickets',
+      website: 'https://www.seetickets.com',
+  },
+  {
+      name: 'Másqueticket',
+      website: 'https://www.masqueticket.com',
+  },
+];

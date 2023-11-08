@@ -1,12 +1,13 @@
 .surfer-card {
   width: 50%;
   height: 75%;
+  min-height: 560px;
   border: 1px solid #bebcbc;
   border-radius: 8px;
   overflow: hidden;
   margin: 0 2vw;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  opacity: 1; 
+  opacity: 1;
   transition: opacity 1.5s ease-in-out;
 }
 
@@ -43,10 +44,10 @@
 }
 
 .card-description {
-    padding: 1vw;
-    text-align: center;
-    color: #717171;
-    font-size: 1rem;
+  padding: 1vw;
+  text-align: center;
+  color: #717171;
+  font-size: 1rem;
 }
 
 .flag-container {
@@ -58,4 +59,73 @@
   width: 60px;
   height: auto;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 785px) {
+  .surfer-card{
+    height: auto;
+    min-height: fit-content;
+  }
+
+  .card-content {
+    padding: 5px;
+    justify-content: center;
+    gap: 5px;
+    min-height:fit-content;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+
+  .card-details {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .card-description {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
+  .flag-image {
+    width: 45px;
+    height: auto;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .card-content {
+    padding: 0;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    padding: 5px;
+  }
+
+  .card-details {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+
+  .card-description {
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+
+  .flag-image {
+    width: 40px;
+    height: auto;
+    border-radius: 2px;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 25%;
+    object-fit: cover;
+  }
 }

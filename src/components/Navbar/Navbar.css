@@ -1,4 +1,5 @@
-nav{
+/* Base styles for larger screens */
+nav {
   width: 100vw;
   height: 5vh;
   background-color: #ffa96a;
@@ -6,16 +7,16 @@ nav{
   align-items: center;
   justify-content: space-evenly;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
   text-align: center;
-  
 }
 
 nav ul li {
   display: inline;
-  margin: 3vw;
+  margin: 1vw; /* Adjust the margin for smaller screens */
 }
 
 nav ul li a {
@@ -26,4 +27,17 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #000;
+}
+
+/* Media query for screens 600px wide and below */
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 1vh 0; /* Adjust margin for better spacing */
+  }
 }

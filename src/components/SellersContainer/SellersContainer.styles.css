@@ -5,7 +5,7 @@
   }
   
   .seller-button {
-    width: 8vw;
+    width: 200px;
     display: inline-block;
     background-color: #fd8f41;
     color: #fff;
@@ -22,4 +22,13 @@
     background-color: #f0f0f0;
     color: #fd8f41;
   }
+
+  @media screen and (max-width: 800px) {
+    .seller-button{
+      width: 110px;
+      padding: 5px;
+      font-size: 0.8rem;
+    }
+  }
+
   

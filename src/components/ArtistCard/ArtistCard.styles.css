@@ -5,6 +5,8 @@
     overflow: hidden;
     width: 40vw;
     height: 45vh;
+    min-height: 450px;
+    min-width: 250px
 }
 
 .artist-image{
@@ -36,3 +38,25 @@
     font-size: 16px;
     margin: 10px 0;
 }
+
+@media (max-width: 700px) {
+
+    .artist-details {
+        padding: 5px;
+    }
+
+    .artist-name {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    
+    .artist-genre {
+        font-size: 16px;
+        color: #33a0ff;
+    }
+    
+    .artist-origin {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+  }

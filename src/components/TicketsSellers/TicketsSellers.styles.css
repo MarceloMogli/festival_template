@@ -9,9 +9,10 @@
 .tickets-sellers-container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 40px;
   margin: 0 10vw;
-  height: 35vh;
+  height: auto;
 }
 
 .seller-row-container {
@@ -26,3 +27,19 @@
   color: #4c4c4c;
 }
 
+@media screen and (max-width: 800px) {
+  .sellers-title{
+    width: 110px;
+    padding: 5px;
+    font-size: 1.6rem;
+  }
+
+  .local-sellers{
+    font-size: 0.7rem;
+  }
+
+  .tickets-sellers-container{
+    margin: 0;
+    flex-direction: column;
+  }
+}
