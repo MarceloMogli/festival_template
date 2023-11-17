@@ -24,7 +24,7 @@ const FoodTruckAccordion = () => {
                     >
                         <img src={foodtruckCard.image} alt={foodtruckCard.text} className="main-image" />
                         <div className="content">
-                            <a href={`/foodtruck${index}`}>
+                            <a href={`/foodtruck/${index}`}>
                                 <span className="material-symbols-outlined">
                                     <img src={imageSearch} alt="Search icon" />
                                 </span>

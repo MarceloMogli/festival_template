@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
-import {Home, Schedule, Artists, Food, Surfing, Tickets, NoPage} from "./pages";
+import {Home, Schedule, Artists, Food, Surfing, Tickets, NoPage, FoodTruckTemplate} from "./pages";
 import './index.css';
 
 
@@ -16,6 +16,7 @@ export default function App() {
           <Route path="food" element={<Food />} />
           <Route path="surfing" element={<Surfing />} />
           <Route path="tickets" element={<Tickets />} />
+          <Route path="foodtruck/:id" element={<FoodTruckTemplate />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
