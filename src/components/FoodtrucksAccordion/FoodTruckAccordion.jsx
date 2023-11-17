@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { foodtruckCards } from '../../constants'
 import imageSearch from '../../assets/search.png'
 
@@ -24,11 +25,11 @@ const FoodTruckAccordion = () => {
                     >
                         <img src={foodtruckCard.image} alt={foodtruckCard.text} className="main-image" />
                         <div className="content">
-                            <a href={`/foodtruck/${index}`}>
+                            <Link to={`/foodtruck/${index}`}>
                                 <span className="material-symbols-outlined">
                                     <img src={imageSearch} alt="Search icon" />
                                 </span>
-                            </a>
+                            </Link>
                             <div>
                                 <h2>{foodtruckCard.header}</h2>
                                 <p>{foodtruckCard.text}</p>
